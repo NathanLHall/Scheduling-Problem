@@ -15,10 +15,10 @@ import random
 import time
 
 # =============================================================================
-# Shelby Variables
+# User Variables
 # =============================================================================
 
-# Shelby, you can make changes to these variables, as you see fit
+# User, you can make changes to these variables, as you see fit
 
 #Folder location to find tutor availability schedules
 availabilityPATH = "\\\\192.168.0.3\\NateFiles\\Science\\Computer Science\\Scheduling Problem\\Tutor Availabilities\\"
@@ -45,7 +45,7 @@ onDuty = [1,1,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,1,1, # Monday
           1,1,1,1,1,1,1,1]
 
 # =============================================================================
-# Not Shelby Variables
+# Not User Variables
 # =============================================================================
 
 tutorDict = {}
