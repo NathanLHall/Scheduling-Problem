@@ -5,7 +5,7 @@ Created on Thu Dec 13 01:51:01 2018
 @author: NathanLHall
 """
 
-PATH = "\\\\192.168.0.3\\NateFiles\\test.csv"
+PATH = "<path to output csv file>"
 
 openTime = "7:30"
 listTimes = []
