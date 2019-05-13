@@ -20,21 +20,13 @@ import time
 
 # User, you can make changes to these variables, as you see fit
 
-#Folder location to find tutor availability schedules
-availabilityPATH = "\\\\192.168.0.3\\NateFiles\\Science\\Computer Science\\Scheduling Problem\\Tutor Availabilities\\"
-templatePATH = "\\\\192.168.0.3\\NateFiles\\Science\\Computer Science\\Scheduling Problem\\Template.csv"
-payrollPATH = "\\\\192.168.0.3\\NateFiles\\Science\\Computer Science\\Scheduling Problem\\Weekly Payroll.csv"
-mathSchedulePATH = "\\\\192.168.0.3\\NateFiles\\Science\\Computer Science\\Scheduling Problem\\Weekly Schedule.csv"
-notesPATH = "\\\\192.168.0.3\\NateFiles\\Science\\Computer Science\\Scheduling Problem\\Notes.txt"
-
-# Running from Ubuntu
-#availabilityPATH = "/run/user/1000/gvfs/smb-share:server=192.168.0.3,share=natefiles/Science/Computer Science/Scheduling Problem/Tutor Availabilities/"
-#templatePATH = "/run/user/1000/gvfs/smb-share:server=192.168.0.3,share=natefiles/Science/Computer Science/Scheduling Problem/Template.csv"
-#payrollPATH = "/run/user/1000/gvfs/smb-share:server=192.168.0.3,share=natefiles/Science/Computer Science/Scheduling Problem/Weekly Payroll.csv"
-#mathSchedulePATH = "/run/user/1000/gvfs/smb-share:server=192.168.0.3,share=natefiles/Science/Computer Science/Scheduling Problem/Weekly Schedule.csv"
-#notesPATH = "/run/user/1000/gvfs/smb-share:server=192.168.0.3,share=natefiles/Science/Computer Science/Scheduling Problem/Notes.txt"
-
-
+# Folder location to find tutor availability schedules
+# Windows file directory format
+availabilityPATH = "<path to folder>\\Tutor Availabilities\\"
+templatePATH = "<path to folder>\\Template.csv"
+payrollPATH = "<path to folder>\\Weekly Payroll.csv"
+mathSchedulePATH = "<path to folder>\\Weekly Schedule.csv"
+notesPATH = "<path to folder>\\Notes.txt"
 
 # Number of desired tutors to be on duty during each time slot
 onDuty = [1,1,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,1,1, # Monday
